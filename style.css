@@ -17,10 +17,11 @@ li{
     font-size: 20px;
     width: 300px;
     height: 300px;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     margin: 10px;
     padding: 10px;
+    float: left;
 }
 
 .colum1{
@@ -36,6 +37,10 @@ li{
 
 .divs{
     text-align: center;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 #rightList {
